@@ -1,0 +1,19 @@
+{
+  "name": "projet_labyrinthe_electron",
+  "version": "1.0.0",
+  "description": "Application Electron pour créer et résoudre des labyrinthes",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.2.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
